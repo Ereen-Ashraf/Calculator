@@ -1,0 +1,91 @@
+body{
+    background-color : rgb(71, 70, 67);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 16em;
+    height: 28em;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15vh;
+    box-shadow: 0 0 5px 0px rgb(121, 121, 118);
+}
+
+#container div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container .light_dark{
+    width: 3.1em;
+    height: 1.5em;
+    border: 1.5px solid rgb(134, 67, 43);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+#container #dark_mode{
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    border: solid transparent 1px;
+    background-color: black;
+}
+#container #light_mode{
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    border: solid transparent 1px;
+    background-color: white;
+}
+
+#txt{
+    width: 100%;
+    padding: 13px;
+    margin: 25px 0 30px 0;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: orangered;
+    background-color:transparent;
+    box-shadow: 0 0 3px 0 rgb(121, 121, 118);
+}
+
+.btn{
+    width: 2em;
+    padding:7px;
+    margin-bottom: 15px;
+    border: transparent;
+    border-radius: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:rgb(237, 223, 223);
+    box-shadow: 0 0 3px .6px rgb(121, 121, 118);
+
+}
+
+.btn:hover, .orange{
+    background-color: orangered;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
